@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mars Hou</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://marshou.github.io/"/>
+  <updated>2017-10-12T09:57:52.000Z</updated>
+  <id>http://marshou.github.io/</id>
+  
+  <author>
+    <name>Mars Hou</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Preface</title>
+    <link href="http://marshou.github.io/2017/10/11/Preface/"/>
+    <id>http://marshou.github.io/2017/10/11/Preface/</id>
+    <published>2017-10-11T07:46:28.000Z</published>
+    <updated>2017-10-12T09:57:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Eventually, I choiced write blog. I am born the 90s of Chinese family, Poor learning, very lazy, liked cool. Sorry, My English is very poor, I still use English write blog, So what? I hope to improve my English, professional skills and help everyone, by wirting blogs. This’s my original intention of wirting blog. Ok, Gone… See you soon.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Eventually, I choiced write blog. I am born the 90s of Chinese family, Poor learning, very lazy, liked cool. Sorry, My English is very po
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
