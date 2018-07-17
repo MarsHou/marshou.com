@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://marshou.github.io/2018/07/17/how-remote-linux-of-ssh/</loc>
+    
+    <lastmod>2018-07-17T04:00:12.893Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://marshou.github.io/2018/07/16/centos-install-ssh/</loc>
     
     <lastmod>2018-07-16T10:18:17.590Z</lastmod>
