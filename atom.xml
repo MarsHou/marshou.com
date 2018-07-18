@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://marshou.github.io/"/>
-  <updated>2018-07-17T04:00:12.893Z</updated>
+  <updated>2018-07-18T02:32:58.160Z</updated>
   <id>http://marshou.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Upgrade node on mac</title>
+    <link href="http://marshou.github.io/2018/07/18/upgrade-node-on-mac/"/>
+    <id>http://marshou.github.io/2018/07/18/upgrade-node-on-mac/</id>
+    <published>2018-07-18T01:52:09.000Z</published>
+    <updated>2018-07-18T02:32:58.160Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ sudo npm cache clean -f</div><div class="line">Password:</div><div class="line">npm WARN using --force I sure hope you know what you are doing.</div></pre></td></tr></table></figure><h5 id="STEP-2"><a href="#STEP-2" class="headerlink" title="STEP 2"></a>STEP 2</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ sudo npm install -g n</div><div class="line">/usr/local/bin/n -&gt; /usr/local/lib/node_modules/n/bin/n</div><div class="line">/usr/local/lib</div><div class="line">└── n@2.1.12</div></pre></td></tr></table></figure><h5 id="STEP-3"><a href="#STEP-3" class="headerlink" title="STEP 3"></a>STEP 3</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ sudo n stable</div><div class="line"></div><div class="line">     install : node-v10.6.0</div><div class="line">       mkdir : /usr/local/n/versions/node/10.6.0</div><div class="line">       fetch : https://nodejs.org/dist/v10.6.0/node-v10.6.0-darwin-x64.tar.gz</div><div class="line">######################################################################## 100.0%</div><div class="line">   installed : v10.6.0</div></pre></td></tr></table></figure><h5 id="STEP-4"><a href="#STEP-4" class="headerlink" title="STEP 4"></a>STEP 4</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ node -v</div><div class="line">v10.6.0</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;STEP-1&quot;&gt;&lt;a href=&quot;#STEP-1&quot; class=&quot;headerlink&quot; title=&quot;STEP 1&quot;&gt;&lt;/a&gt;STEP 1&lt;/h5&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut
+      
+    
+    </summary>
+    
+    
+      <category term="Node" scheme="http://marshou.github.io/tags/Node/"/>
+    
+  </entry>
   
   <entry>
     <title>How remote linux of ssh</title>
