@@ -56,29 +56,33 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Mars Hou">
-<meta property="og:url" content="http://marshou.github.io/index.html">
+  <meta name="description" content="STEPSTEP 11wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh If prompt error bash: wget: command not found.  Fi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Install Shadowsocks on CentOS">
+<meta property="og:url" content="http://marshou.github.io/2018/07/16/centos-install-ssh/index.html">
 <meta property="og:site_name" content="Mars Hou">
+<meta property="og:description" content="STEPSTEP 11wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh If prompt error bash: wget: command not found.  Fi">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-07-16T10:18:17.590Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mars Hou">
+<meta name="twitter:title" content="Install Shadowsocks on CentOS">
+<meta name="twitter:description" content="STEPSTEP 11wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh If prompt error bash: wget: command not found.  Fi">
   <link rel="alternate" href="/atom.xml" title="Mars Hou" type="application/atom+xml">
-  <link rel="canonical" href="http://marshou.github.io/">
+  <link rel="canonical" href="http://marshou.github.io/2018/07/16/centos-install-ssh/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Mars Hou</title>
+  <title>Install Shadowsocks on CentOS | Mars Hou</title>
   
 
 
@@ -182,167 +186,11 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          <div id="content" class="content page-home">
-            
-  <section id="posts" class="posts-expand">
-      
-
-  <article class="post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://marshou.github.io/2018/07/18/upgrade-node-on-mac/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mars Hou">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mars Hou">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2018/07/18/upgrade-node-on-mac/" class="post-title-link" itemprop="url">Upgrade node on mac</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              
-                
-              
-
-              <time title="Created: 2018-07-18 09:52:09 / Modified: 10:32:58" itemprop="dateCreated datePublished" datetime="2018-07-18T09:52:09+08:00">2018-07-18</time>
-            </span>
-          
+          <div id="content" class="content page-post-detail">
             
 
-            
-          
-
-          
-
-        </div>
-      </header>
-
+  <div id="posts" class="posts-expand">
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h5 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ sudo npm cache clean -f</div><div class="line">Password:</div><div class="line">npm WARN using --force I sure hope you know what you are doing.</div></pre></td></tr></table></figure>
-<h5 id="STEP-2"><a href="#STEP-2" class="headerlink" title="STEP 2"></a>STEP 2</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ sudo npm install -g n</div><div class="line">/usr/local/bin/n -&gt; /usr/local/lib/node_modules/n/bin/n</div><div class="line">/usr/local/lib</div><div class="line">└── n@2.1.12</div></pre></td></tr></table></figure>
-<h5 id="STEP-3"><a href="#STEP-3" class="headerlink" title="STEP 3"></a>STEP 3</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ sudo n stable</div><div class="line"></div><div class="line">     install : node-v10.6.0</div><div class="line">       mkdir : /usr/local/n/versions/node/10.6.0</div><div class="line">       fetch : https://nodejs.org/dist/v10.6.0/node-v10.6.0-darwin-x64.tar.gz</div><div class="line">######################################################################## 100.0%</div><div class="line">   installed : v10.6.0</div></pre></td></tr></table></figure>
-<h5 id="STEP-4"><a href="#STEP-4" class="headerlink" title="STEP 4"></a>STEP 4</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ node -v</div><div class="line">v10.6.0</div></pre></td></tr></table></figure>
-
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-      
-
-  <article class="post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://marshou.github.io/2018/07/17/how-remote-linux-of-ssh/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mars Hou">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mars Hou">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2018/07/17/how-remote-linux-of-ssh/" class="post-title-link" itemprop="url">How remote linux of ssh</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              
-                
-              
-
-              <time title="Created: 2018-07-17 11:26:56 / Modified: 12:00:12" itemprop="dateCreated datePublished" datetime="2018-07-17T11:26:56+08:00">2018-07-17</time>
-            </span>
-          
-            
-
-            
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Use terminal remote linux server. Just need a Command!!! <code>ssh username@ip -pport</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh root@192.163.1.1 -p8989</div></pre></td></tr></table></figure>
-<p>Then input your password of remote server</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ ssh root@192.163.1.1 -p8989</div><div class="line">root@192.163.1.1&apos;s password: </div><div class="line">[root@host ~]#</div></pre></td></tr></table></figure>
-<p>If need modify your root password. Can try the  <code>passwd</code>  command.</p>
-
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-      
 
   <article class="post" itemscope itemtype="http://schema.org/Article">
   
@@ -361,9 +209,8 @@
       <meta itemprop="name" content="Mars Hou">
     </span>
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2018/07/16/centos-install-ssh/" class="post-title-link" itemprop="url">Install Shadowsocks on CentOS</a>
+        <h1 class="post-title" itemprop="name headline">Install Shadowsocks on CentOS
+
           
         </h1>
 
@@ -397,7 +244,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h4 id="STEP"><a href="#STEP" class="headerlink" title="STEP"></a>STEP</h4><h5 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh</div></pre></td></tr></table></figure>
+        <h4 id="STEP"><a href="#STEP" class="headerlink" title="STEP"></a>STEP</h4><h5 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh</div></pre></td></tr></table></figure>
 <p>If prompt error <code>bash: wget: command not found</code>.  First execute <code>yum -y install wget</code>.</p>
 <h5 id="STEP-2"><a href="#STEP-2" class="headerlink" title="STEP 2"></a>STEP 2</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod +x shadowsocks-all.sh</div></pre></td></tr></table></figure>
 <h5 id="STEP-3"><a href="#STEP-3" class="headerlink" title="STEP 3"></a>STEP 3</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log</div></pre></td></tr></table></figure>
@@ -415,110 +262,47 @@
 <h5 id="STEP-5-1"><a href="#STEP-5-1" class="headerlink" title="STEP 5"></a>STEP 5</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">Please select stream cipher for Shadowsocks-Python:</div><div class="line">1) aes-256-gcm</div><div class="line">2) aes-192-gcm</div><div class="line">3) aes-128-gcm</div><div class="line">4) aes-256-ctr</div><div class="line">5) aes-192-ctr</div><div class="line">6) aes-128-ctr</div><div class="line">7) aes-256-cfb</div><div class="line">8) aes-192-cfb</div><div class="line">9) aes-128-cfb</div><div class="line">10) camellia-128-cfb</div><div class="line">11) camellia-192-cfb</div><div class="line">12) camellia-256-cfb</div><div class="line">13) xchacha20-ietf-poly1305</div><div class="line">14) chacha20-ietf-poly1305</div><div class="line">15) chacha20-ietf</div><div class="line">16) chacha20</div><div class="line">17) salsa20</div><div class="line">18) rc4-md5</div><div class="line">Which cipher you&apos;d select(Default: aes-256-gcm):7</div><div class="line"></div><div class="line">cipher = aes-256-cfb</div></pre></td></tr></table></figure>
 <h5 id="STEP-6-1"><a href="#STEP-6-1" class="headerlink" title="STEP 6"></a>STEP 6</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">Press any key to start...or Press Ctrl+C to cancel</div><div class="line">[Info] Checking the EPEL repository...</div><div class="line">... ...</div><div class="line">... ...</div><div class="line">... ...</div><div class="line">INFO: loading config from /etc/shadowsocks-python/config.json</div><div class="line">2018-07-16 00:05:22 INFO     loading libcrypto from libcrypto.so.10</div><div class="line">Starting Shadowsocks success</div><div class="line"></div><div class="line">Congratulations, Shadowsocks-Python server install completed!</div><div class="line">Your Server IP        :  95.169.1.110 </div><div class="line">Your Server Port      :  17945 </div><div class="line">Your Password         :  teddysun.com </div><div class="line">Your Encryption Method:  aes-256-cfb </div><div class="line"></div><div class="line">Your QR Code: (For Shadowsocks Windows, OSX, Android and iOS clients)</div><div class="line"> ss://YWVzLTI1Ni1jZmI6TWFyczUyMDEzMUA5NS4xNjkuMS5xMTc7ODk4OQ== </div><div class="line">Your QR Code has been saved as a PNG file path:</div><div class="line"> /root/shadowsocks_python_qr.png </div><div class="line"></div><div class="line">Welcome to visit: https://teddysun.com/486.html</div><div class="line">Enjoy it!</div></pre></td></tr></table></figure>
 
-        
-      
     </div>
 
     
     
     
+        
+      
+
       <footer class="post-footer">
-          <div class="post-eof"></div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2017/10/11/Preface/" rel="next" title="Preface">
+                  <i class="fa fa-chevron-left"></i> Preface
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2018/07/17/how-remote-linux-of-ssh/" rel="prev" title="How remote linux of ssh">
+                  How remote linux of ssh <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
         
       </footer>
+    
   </div>
   
   
   
   </article>
 
-    
-      
-
-  <article class="post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://marshou.github.io/2017/10/11/Preface/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Mars Hou">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mars Hou">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-            
-            <a href="/2017/10/11/Preface/" class="post-title-link" itemprop="url">Preface</a>
-          
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              
-                
-              
-
-              <time title="Created: 2017-10-11 15:46:28" itemprop="dateCreated datePublished" datetime="2017-10-11T15:46:28+08:00">2017-10-11</time>
-            </span>
-          
-            
-
-            
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2017-10-12 17:57:52" itemprop="dateModified" datetime="2017-10-12T17:57:52+08:00">2017-10-12</time>
-              </span>
-            
-          
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Eventually, I choiced write blog. I am born the 90s of Chinese family, Poor learning, very lazy, liked cool. Sorry, My English is very poor, I still use English write blog, So what? I hope to improve my English, professional skills and help everyone, by wirting blogs. This’s my original intention of wirting blog. Ok, Gone… See you soon.</p>
-
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-          <div class="post-eof"></div>
-        
-      </footer>
   </div>
-  
-  
-  
-  </article>
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -537,8 +321,17 @@
 
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -606,6 +399,23 @@
 
         </div>
       </div>
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#STEP"><span class="nav-number">1.</span> <span class="nav-text">STEP</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-1"><span class="nav-number">1.1.</span> <span class="nav-text">STEP 1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-2"><span class="nav-number">1.2.</span> <span class="nav-text">STEP 2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-3"><span class="nav-number">1.3.</span> <span class="nav-text">STEP 3</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-4"><span class="nav-number">1.4.</span> <span class="nav-text">STEP 4</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-5"><span class="nav-number">1.5.</span> <span class="nav-text">STEP 5</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-6"><span class="nav-number">1.6.</span> <span class="nav-text">STEP 6</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#EXAMPLE"><span class="nav-number">2.</span> <span class="nav-text">EXAMPLE</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-1-1"><span class="nav-number">2.1.</span> <span class="nav-text">STEP 1</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-2-1"><span class="nav-number">2.2.</span> <span class="nav-text">STEP 2</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-3-1"><span class="nav-number">2.3.</span> <span class="nav-text">STEP 3</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-4-1"><span class="nav-number">2.4.</span> <span class="nav-text">STEP 4</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-5-1"><span class="nav-number">2.5.</span> <span class="nav-text">STEP 5</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#STEP-6-1"><span class="nav-number">2.6.</span> <span class="nav-text">STEP 6</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
 
     </div>
   </aside>
@@ -717,5 +527,8 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.3.0"></script><script src="/js/post-details.js?v=7.3.0"></script>
+
+
 </body>
 </html>
